@@ -1,10 +1,10 @@
 :root {
     --text-primary: #333333;
-    --text-secondary: #ff7043;
-    --accent-color: #29b6f6;
-    --accent-hover: #039be5;
+    --text-secondary: #7c4dff;
+    --accent-color: #7c4dff;
+    --accent-hover: #6200ea;
     --surface-color: rgba(255, 255, 255, 0.85);
-    --surface-hover: rgba(255, 235, 59, 0.6);
+    --surface-hover: rgba(179, 136, 255, 0.3);
     --border-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -78,7 +78,7 @@ body::before {
 .app-header h1 {
     font-size: 1.6rem;
     font-weight: 800;
-    color: #ff5722;
+    color: #6200ea;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
@@ -153,8 +153,8 @@ body::before {
 }
 
 .chapter-item.active {
-    background-color: rgba(41, 182, 246, 0.2);
-    color: #0277bd;
+    background-color: rgba(124, 77, 255, 0.15);
+    color: #4a148c;
     border-left-color: var(--accent-color);
     font-weight: 800;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
@@ -207,7 +207,7 @@ video { width: 100%; height: 100%; object-fit: contain; }
 .custom-overlay.hidden { opacity: 0; pointer-events: none; }
 
 .play-btn {
-    background: #ffeb3b;
+    background: #b388ff;
     border: 4px solid white;
     border-radius: 50%;
     width: 80px; height: 80px;
@@ -219,8 +219,8 @@ video { width: 100%; height: 100%; object-fit: contain; }
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-.play-btn svg { fill: #ff5722; margin-left: 5px; }
-.play-btn:hover { transform: scale(1.15); background: #ffc107; }
+.play-btn svg { fill: white; margin-left: 5px; }
+.play-btn:hover { transform: scale(1.15); background: #7c4dff; }
 
 /* === スクリプトトグルボタン === */
 .script-toggles {
@@ -310,7 +310,7 @@ video { width: 100%; height: 100%; object-fit: contain; }
 
 .script-column .speaker {
     font-weight: 800;
-    color: #ff7043;
+    color: #7c4dff;
 }
 
 .no-script {
@@ -323,8 +323,8 @@ video { width: 100%; height: 100%; object-fit: contain; }
 /* === スクロールバー === */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: rgba(255,255,255,0.5); border-radius: 4px; }
-::-webkit-scrollbar-thumb { background: #ffab91; border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: #ff7043; }
+::-webkit-scrollbar-thumb { background: #ce93d8; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #ab47bc; }
 
 /* === レスポンシブ対応 (スマホ向け) === */
 @media (max-width: 900px) {
